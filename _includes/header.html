@@ -1,32 +1,37 @@
 <header class="row">
-  <pre>
-    <hx class="">                                                                                                                                             
-          _/        _/_/_/_/  _/_/_/_/  _/_/_/_/_/      _/    _/    _/_/    _/      _/  _/_/_/        _/          _/    _/_/    _/      _/   
-         _/        _/        _/            _/          _/    _/  _/    _/  _/_/    _/  _/    _/      _/          _/  _/    _/    _/  _/      
-        _/        _/_/_/    _/_/_/        _/          _/_/_/_/  _/_/_/_/  _/  _/  _/  _/    _/      _/    _/    _/  _/_/_/_/      _/         
-       _/        _/        _/            _/          _/    _/  _/    _/  _/    _/_/  _/    _/        _/  _/  _/    _/    _/      _/          
-      _/_/_/_/  _/_/_/_/  _/            _/          _/    _/  _/    _/  _/      _/  _/_/_/            _/  _/      _/    _/      _/           
-        </hx>
-  </pre>
-  <div class="col-lg-8 col-lg-offset-2">
-    <p>
-    <span class="reserved">char</span> nick[<span class="number"></span>] = <span class="string">"{{ site.nick }}"</span>;
-    </p>
-    <p>
-    printf(<a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">"https://{{ site.source_code.server }}/<span class="reserved">%s\n</span>"</span></a>,nick);
-    </p>
-    <a href="mailto:naige9@lefthandway.pl">
-    <p>
-    printf(<span class="string">"<span class="reserved">%s\x40</span>{{ site.mail.domain }}<span class="reserved">\x2e\\\b</span>{{ site.mail.ext }}<span class="reserved">\n</span>"</span>,nick); /* So if You want send mail to me... just click */
-    </p>
-    </a>
-    <!-- <p>
+    <div class="col-lg-8 col-lg-offset-2">
+        <p>
+            <span class="reserved">char</span> nick[<span class="number"></span
+            >] = <span class="string">"{{ site.nick }}"</span>;
+        </p>
+        <p>
+            printf(<a
+                href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}"
+                target="_blank"
+                ><span class="string"
+                    >"https://{{ site.source_code.server }}/<span
+                        class="reserved"
+                        >%s\n</span
+                    >"</span
+                ></a
+            >,nick);
+        </p>
+        <a href="mailto:naige9@lefthandway.pl">
+            <p>
+                printf(<span class="string"
+                    >"<span class="reserved">%s\x40</span>{{ site.mail.domain
+                    }}<span class="reserved">\x2e\\\b</span>{{ site.mail.ext
+                    }}<span class="reserved">\n</span>"</span
+                >,nick); /* So if You want send mail to me... just click */
+            </p>
+        </a>
+        <!-- <p>
             printf(<a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://<span class="reserved">%s</span>.{{ site.blog.server }}<span class="reserved">\n</span>"</span></a>,nick);
         </p> -->
-  <!--  <p>
+        <!--  <p>
     puts(<a href="{{ site.baseurl }}misc/pubkey.gpg.txt" target="_blank"><span class="string">"5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"</span></a>);
     </p> -->
-  </div>
+    </div>
 </header>
 
 {% include menu.html %}
