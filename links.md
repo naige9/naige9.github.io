@@ -45,5 +45,5 @@ permalink: /links/
 * [DARKNET DIARIES](https://darknetdiaries.com)
 * [Rozmowa Kontrolowana](https://open.spotify.com/show/3xFfnAXgDmFpScxrlRlzoN)
 * [Malicious Life](https://malicious.life)
-* [Cyber, cyber...](https://open.spotify.com/show/47XblkP9cSjxiVthrxQUmM)\
+* [Cyber, cyber...](https://open.spotify.com/show/47XblkP9cSjxiVthrxQUmM)
 * [Podcast Ostrapiła](https://ostrapila.pl)
